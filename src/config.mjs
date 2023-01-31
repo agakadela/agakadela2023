@@ -1,15 +1,14 @@
-import defaultImage from './assets/images/default.png';
+import defaultImage from './assets/images/ak-banner.png';
 
 const CONFIG = {
-  name: 'AstroWind',
+  name: 'AgaKadela',
 
-  origin: 'https://astrowind.vercel.app',
+  origin: 'https://agakadela.com',
   basePathname: '/',
   trailingSlash: false,
 
-  title: 'AstroWind — Free template for create a website with Astro + Tailwind CSS',
-  description:
-    '🚀 Suitable for Startups, Small Business, Sass Websites, Professional Portfolios, Marketing Websites, Landing Pages & Blogs.',
+  title: 'Aga Kadela - woman in tech, entrepreneur and programmer',
+  description: 'I help woman become coding superpowers!',
   defaultImage: defaultImage,
 
   defaultTheme: 'system', // Values: "system" | "light" | "dark" | "light:only" | "dark:only"
@@ -24,7 +23,7 @@ const CONFIG = {
     timeZone: 'UTC',
   }),
 
-  googleAnalyticsId: false, // or "G-XXXXXXXXXX",
+  googleAnalyticsId: 'G-0WLHX19G3F', // or "G-XXXXXXXXXX",
   googleSiteVerificationId: 'orcPxI47GSa-cRvY11tUe6iGg2IO_RPvnA1q95iEM3M',
 
   blog: {
