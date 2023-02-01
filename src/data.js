@@ -73,6 +73,6 @@ export const footerData = {
     { ariaLabel: 'Github', icon: 'tabler:brand-github', href: 'https://github.com/agakadela' },
   ],
   footNote: `
-    Made by <a class="text-blue-600 hover:underline dark:text-gray-200" href="https://github.com/agakadela"> Aga Kadela</a> · All rights reserved.
+    Made by <a class="text-primary hover:underline dark:text-secondary" href="https://github.com/agakadela"> Aga Kadela</a> · All rights reserved.
   `,
 };
