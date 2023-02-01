@@ -34,3 +34,9 @@ export interface MetaSEO {
   ogTitle?: string;
   ogType?: string;
 }
+
+export interface TechStackItem {
+  icon: string;
+  title: string;
+  url: string;
+}

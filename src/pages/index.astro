@@ -3,13 +3,13 @@ import { SITE } from '~/config.mjs';
 import Layout from '~/layouts/PageLayout.astro';
 
 import Hero from '~/components/widgets/Hero.astro';
-import Note from '~/components/widgets/Note.astro';
-import Features from '~/components/widgets/Features.astro';
+// import Note from '~/components/widgets/Note.astro';
+// import Features from '~/components/widgets/Features.astro';
 import Features2 from '~/components/widgets/Features2.astro';
-import Steps from '~/components/widgets/Steps.astro';
+// import Steps from '~/components/widgets/Steps.astro';
 import Content from '~/components/widgets/Content.astro';
 import LatestPosts from '~/components/blog/LatestPosts.astro';
-import Contactform from '~/components/contactform.astro';
+// import Contactform from '~/components/contactform.astro';
 
 const meta = {
   title: SITE.title,
@@ -23,7 +23,7 @@ const meta = {
 
   <Hero
     callToAction={{ text: 'Projects', href: '#projects', icon: 'tabler:arrow-down' }}
-    callToAction2={{ text: 'Contact', href: '#contact' }}
+ 
     image={{ src: import('~/assets/images/ak-banner.png'), alt: 'AstroWind Hero Image' }}
   >
     <Fragment slot="title">
@@ -33,27 +33,27 @@ const meta = {
 
     <Fragment slot="subtitle">
  
-      <span class="mb-1 font-bold text-blue-600">Aga Kadela</span> a web dev and entrepreneur on a mission to boost women in tech. Creator of Coder Woman Academy and dotty.ai, aiming to help women achieve their full potential as coding superheroes.
+      <span class="mb-1 font-bold text-blue-600">Aga Kadela</span> - a programmer, entrepreneur and teacher on a mission to boost women in tech. Creator of Coder Woman Academy and dotty.ai, aiming to help women achieve their full potential as coding superheroes.
     </Fragment>
   </Hero>
 
   <!-- Note Widget ******************* -->
 
-  <Note />
+  <!-- <Note /> -->
 
   <!-- Features Widget *************** -->
 
-  <Features
-    highlight="Features"
-    title="What you get with AstroWind"
+  <!-- <Features
+    highlight="My superpowers"
+    title="What you get working with me?"
     subtitle="Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque rem aperiam, eaque ipsa quae."
     items={[
       [
         {
-          title: 'Astro + Tailwind CSS Integration',
+          title: 'Solid tech skills',
           description:
-            'A seamless integration between two great frameworks that offer high productivity, performance and versatility.',
-          icon: 'tabler:brand-tailwind',
+            '',
+          icon: 'tabler:code',
         },
         {
           title: 'Ready-to-use Components',
@@ -89,7 +89,7 @@ const meta = {
         },
       ],
     ]}
-  />
+  /> -->
 
   <!-- Content Widget **************** -->
 
@@ -200,9 +200,9 @@ const meta = {
   <!-- Features2 Widget ************** -->
 
   <Features2
-    title="Most used widgets"
+    title="My favorite tech stack"
     subtitle="Provides frequently used components for building websites using Tailwind CSS"
-    highlight="Components"
+    highlight="Tools"
     items={[
       {
         title: 'Headers',
@@ -261,10 +261,11 @@ const meta = {
     ]}
   />
 
+
   <!-- HighlightedPosts Widget ******* -->
 
   <LatestPosts
-    title="Find out more content in our Blog"
+    title="Check out my articles"
     postIds={[
       'get-started-website-with-astro-tailwind-css.md',
       'how-to-customize-astrowind-to-your-brand.md',
@@ -346,7 +347,7 @@ const meta = {
       waste more time! :P
     </Fragment>
   </CallToAction> -->
-<section id="contact">
+<!-- <section id="contact">
         <Fragment slot="title">Contact</Fragment>
         <Fragment slot="desc">We are a here to help.</Fragment>
   
@@ -359,16 +360,16 @@ const meta = {
           </p>
           <div class="mt-5">
             <div class="flex items-center mt-2 space-x-2 text-gray-600">
-              <!-- <Icon class="text-gray-400 w-4 h-4" name="uil:map-marker" /> -->
+            
               <span>1734 Sanfransico, CA 93063</span>
             </div><div class="flex items-center mt-2 space-x-2 text-gray-600">
-              <!-- <Icon class="text-gray-400 w-4 h-4" name="uil:envelope" /> -->
+         
               <a
                 href="mailto:hello@astroshipstarter.com"
                 >hello@astroshipstarter.com</a
               >
             </div><div class="flex items-center mt-2 space-x-2 text-gray-600">
-              <!-- <Icon class="text-gray-400 w-4 h-4" name="uil:phone" /> -->
+            
               <a
                 href="tel:+1 (987) 4587 899">+1 (987) 4587 899</a
               >
@@ -379,5 +380,5 @@ const meta = {
           <Contactform />
         </div>
       </div>
-      </section>
+      </section> -->
 </Layout>
