@@ -1,5 +1,4 @@
 ---
-import { Icon } from 'astro-icon';
 import TechStack from '../techstack/TechStack.astro';
 
 interface Item {
@@ -19,12 +18,10 @@ const {
   title = await Astro.slots.render('title'),
   subtitle = await Astro.slots.render('subtitle'),
   highlight,
-  items = [],
 } = Astro.props;
 ---
 
 <section class="relative">
-
   <div class="relative max-w-screen-xl mx-auto px-4 sm:px-6">
     <div class="py-4 pt-8 sm:py-6 lg:py-8 lg:pt-12">
       {
