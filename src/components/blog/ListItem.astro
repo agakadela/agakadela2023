@@ -16,6 +16,8 @@ export interface Props {
 
 const { post } = Astro.props;
 const image = await findImage(post.image);
+console.log('image', image);
+// console.log('post', post)
 
 const link = !BLOG?.post?.disabled ? getPermalink(post.permalink, 'post') : '';
 ---
@@ -33,6 +35,7 @@ const link = !BLOG?.post?.disabled ? getPermalink(post.permalink, 'post') : '';
               sizes="(max-width: 900px) 400px, 900px"
               alt={post.title}
               aspectRatio="16:9"
+              format={image.format}
             />
           )}
         </div>

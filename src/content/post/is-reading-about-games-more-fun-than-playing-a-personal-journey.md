@@ -1,0 +1,88 @@
+---
+publishDate: 2023-05-19T00:00:00Z
+title: Is Reading About Games More Fun than Playing? A Personal Journey
+description: Welcome to my nostalgic journey, where I recount my experiences with games, not just through playing them but also by reading about them.
+excerpt: Welcome to my nostalgic journey, where I recount my experiences with games, not just through playing them but also by reading about them.
+image: ~/assets/images/gaming-reading/gaming-reading.jpg
+category: Gaming Chronicles
+tags:
+  - gaming
+  - ps5
+canonical: https://agakadela.com/is-reading-about-games-more-fun-than-playing-a-personal-journey
+---
+
+## Introduction
+
+As a kid growing up in the '90s, my gaming adventure began with NES, transitioned to Amiga 500, and later, the PC. But I was not a typical gamer. I was the kid who **read about games just as much as, if not more than, I played them**.
+
+## Childhood Gaming Experiences
+
+Growing up, I got my hands on **NES, Amiga 500, and PC games** that spanned from action-packed adventures to brain-teasing puzzles.
+
+I still vividly remember those long days sitting on the carpet in my home, completely absorbed in my Pegasus console. This NES imitation was a big hit in Poland.
+
+Super Mario Bros, Contra, Tetris, Mortal Combat, Chip'n'Dale - I loved them all! Later, I became fond of adventure games on my PC: Beyond Good and Evil, The Longest Journey, and Syberia were my favorites.
+
+![Pegasus console](Pegasus_consolepadgame.jpg)
+
+## Falling for CD-Action
+
+The real game-changer in my life was **the Polish magazine CD-Action**. Discovering it as a kid, I was instantly hooked.
+
+It was like a monthly Christmas present—rich with game reviews, walkthroughs, and sneak peeks into upcoming releases. Every page was an invitation to an adventure I could hardly resist.
+
+## The Writers behind the Magic
+
+What made CD-Action so appealing to me wasn't just the gaming content but also **the writers behind it.**
+
+They had a unique way of engaging with their readers, sprinkling humor and showcasing a deep understanding of games. Eld, Mac Abra, Hut, EGM - they're my heroes.
+
+One section that stood out was **"Action Redaction"** - where people wrote letters to the editorial team. The responses were hilarious and often better than comedy series on TV!
+
+I was a huge fan of Smuggler, whose writing style was both captivating and funny. Interestingly, **I read this magazine from cover to cover.** It didn't matter what game they described - I read about them all.
+
+That's how I became familiar with the graphics, engines, mechanics, and feelings associated with all games from that era (even multiplayer online games and FPS, which aren't my favorites).
+
+## The Pause Button: Gaming on Hold
+
+There came a time when I had to put my gaming passion on hold. It wasn't an easy decision, but life's priorities took precedence, and **gaming had to take a back seat.**
+
+This phase kicked in when I was a student. Later, I got so caught up in life that I almost forgot about the joy of gaming.
+
+I invested my energy into my career - **first as a volleyball player and later as a programmer**, despite my degree not being related to it! I'm a self-taught coder.
+
+## The Best Birthday Gift: A PS5 and A Return to Gaming
+
+Fast forward to my last birthday, and I received the **best gift from my husband - a Playstation 5 console!**
+
+This was the spark that reignited my passion for gaming. Exploring the new world of games that the PS5 opened up was a thrilling experience. With my prolonged break, I realized I had much to catch up on.
+
+![Playstation 5 console](ps5.png)
+
+## A Blast from the Past: Reading CD-Action Again
+
+With my renewed interest in gaming, I revisited my old addiction - CD-Action.
+
+I acquired some old issues and began catching up on games from 2016-2020. It felt like **reuniting with an old friend.**
+
+## The Power of Reading in the Gaming World
+
+Reading about games is not just about getting information; it's an entirely different kind of thrill. It gives you a deeper understanding of the game, its mechanics, and the world it is set in.
+
+It makes you appreciate the effort that goes into creating these masterpieces. This is especially true for the games that I now have on my PS5. Reading about how they were produced and how predictions were about them is an incredible experience.
+
+## The Big Question: Is Reading About Games More Fun than Playing?
+
+And now comes the big question - **is reading about games more fun than playing them?** For me, the answer isn't black and white. Both have their unique charm and excitement. But there's something about reading that gives you a broader perspective, a deeper understanding, and a closer connection to the creators' minds.
+
+Reading about games goes beyond just learning the details or strategies. **It's about diving into the game's universe before even pressing the power button.** It helps us understand the game's backstory, how it was built, and the intricate details that make it up.
+
+**I see games as pieces of art** crafted with storytelling, visual and sound design, and interactive elements. I especially admire **independent game makers** who create captivating games even with limited resources.
+
+**Physical magazines like CD-Action bring an extra layer of enjoyment.** The feel, smell, and sound of flipping the pages make the reading experience more special. Even with all the game information available online today, I still love reading the paper version of CD-Action. It's like a trip back to my childhood, eagerly awaiting each new issue.
+
+**Playing games, on the other hand, gives a unique, interactive experience** full of excitement and achievement, which reading can't replicate. But they're not separate activities - **reading enhances playing, and playing sparks more interest in reading about games.**
+
+So, for me, it's not about whether reading about games is more fun than playing them. It's about enjoying both and seeing how they enhance the overall gaming experience.
+
+I'm interested in hearing your thoughts. How do you balance playing games and reading about them? What do you think about game creation as a form of art? I'm eager to hear from you!

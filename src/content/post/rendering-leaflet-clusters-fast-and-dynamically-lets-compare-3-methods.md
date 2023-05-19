@@ -4,7 +4,7 @@ title: Rendering Leaflet clusters fast and dynamically - let's compare 3 methods
 description: At some point in the career of every front-end developer, there will come a time when they will face the task of map implementation.
 excerpt: At some point in the career of every front-end developer, there will come a time when they will face the task of map implementation.
 image: https://cdn.hashnode.com/res/hashnode/image/upload/v1675083957669/51d5f370-2b8f-4ad8-aea0-68162241ce17.jpeg
-category: Performance
+category: Frontend Focus
 tags:
   - leaflet
   - javascript
