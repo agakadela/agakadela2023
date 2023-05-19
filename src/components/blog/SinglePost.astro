@@ -9,6 +9,7 @@ import { getPermalink } from '~/utils/permalinks';
 import { getFormattedDate } from '~/utils/utils';
 
 import type { Post } from '~/types';
+import Comments from '../common/Comments.astro';
 
 export interface Props {
   post: Post;
@@ -87,5 +88,6 @@ const { post, url } = Astro.props;
       <PostTags tags={post.tags} class="mr-5" />
       <SocialShare url={url} text={post.title} class="mt-5 sm:mt-1 align-middle text-gray-500 dark:text-slate-600" />
     </div>
+    <Comments />
   </article>
 </section>
