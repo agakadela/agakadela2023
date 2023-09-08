@@ -1,17 +1,10 @@
 ---
 import TechStack from '../techstack/TechStack.astro';
 
-interface Item {
-  title?: string;
-  description?: string;
-  icon?: string;
-}
-
 export interface Props {
   title?: string;
   subtitle?: string;
   highlight?: string;
-  items: Array<Item>;
 }
 
 const {
