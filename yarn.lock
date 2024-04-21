@@ -1298,6 +1298,25 @@
     tsc-alias "1.8.8"
     typescript "5.4.4"
 
+"@playform/compress@^0.0.3":
+  version "0.0.3"
+  resolved "https://registry.yarnpkg.com/@playform/compress/-/compress-0.0.3.tgz#00915bacee3a8b19bd2a19a2d33852e56be49473"
+  integrity sha512-6we2ZgCc6FszEW6iSLr5HsP+q6y/E535AHcfLnihdlXUsT5K5uXDCOuPmb3RjVADeUxDSut7AA9RKnSumVtMAQ==
+  dependencies:
+    "@playform/build" "0.0.5"
+    "@playform/document" "0.0.6"
+    "@playform/pipe" "0.0.2"
+    "@types/csso" "5.0.4"
+    "@types/html-minifier-terser" "7.0.2"
+    astro "4.5.16"
+    csso "5.0.5"
+    html-minifier-terser "7.2.0"
+    kleur "4.1.5"
+    lightningcss "1.24.1"
+    sharp "0.33.3"
+    svgo "3.2.0"
+    terser "5.30.3"
+
 "@playform/document@0.0.6":
   version "0.0.6"
   resolved "https://registry.yarnpkg.com/@playform/document/-/document-0.0.6.tgz#05938f7a95aa1c5a74f216a1cc003a35f4a1a2c2"
@@ -2023,25 +2042,6 @@ astring@^1.8.0:
   version "1.8.6"
   resolved "https://registry.yarnpkg.com/astring/-/astring-1.8.6.tgz#2c9c157cf1739d67561c56ba896e6948f6b93731"
   integrity sha512-ISvCdHdlTDlH5IpxQJIex7BWBywFWgjJSVdwst+/iQCoEYnyOaQ95+X1JGshuBjGp6nxKUy1jMgE3zPqN7fQdg==
-
-astro-compress@^2.0.15:
-  version "2.2.22"
-  resolved "https://registry.yarnpkg.com/astro-compress/-/astro-compress-2.2.22.tgz#9f2b0fcc5eafe1d3850cae720484c51f9bf06cac"
-  integrity sha512-0oGFjm0T+3eA+gsx75r3WnujWBSb72H3Ihn5wgrLFqAl0h/vopgt6ew8JzL5xogrLqeqs1EbpZwmCK5lLOaZUQ==
-  dependencies:
-    "@playform/build" "0.0.5"
-    "@playform/document" "0.0.6"
-    "@playform/pipe" "0.0.2"
-    "@types/csso" "5.0.4"
-    "@types/html-minifier-terser" "7.0.2"
-    astro "4.5.16"
-    csso "5.0.5"
-    html-minifier-terser "7.2.0"
-    kleur "4.1.5"
-    lightningcss "1.24.1"
-    sharp "0.33.3"
-    svgo "3.2.0"
-    terser "5.30.3"
 
 astro-eslint-parser@^0.11.0:
   version "0.11.0"
@@ -3201,7 +3201,7 @@ detect-libc@^1.0.3:
   resolved "https://registry.yarnpkg.com/detect-libc/-/detect-libc-1.0.3.tgz#fa137c4bd698edf55cd5cd02ac559f91a4c4ba9b"
   integrity sha512-pGjwhsmsp4kL2RTz08wcOlGN83otlqHeD/Z5T8GXZB+/YcpQ/dgo+lbU8ZsGxV0HIvqqxo9l7mqYwyYMD9bKDg==
 
-detect-libc@^2.0.0, detect-libc@^2.0.2, detect-libc@^2.0.3:
+detect-libc@^2.0.0, detect-libc@^2.0.1, detect-libc@^2.0.2, detect-libc@^2.0.3:
   version "2.0.3"
   resolved "https://registry.yarnpkg.com/detect-libc/-/detect-libc-2.0.3.tgz#f0cd503b40f9939b894697d19ad50895e30cf700"
   integrity sha512-bwy0MGW55bG41VqxxypOsdSdGqLwXPI/focwgTYCFMbdUiBAxLg9CFzG08sz2aqzknwiX7Hkl0bQENjg8iLByw==
@@ -6936,6 +6936,11 @@ node-addon-api@^3.0.2:
   resolved "https://registry.yarnpkg.com/node-addon-api/-/node-addon-api-3.2.1.tgz#81325e0a2117789c0128dab65e7e38f07ceba161"
   integrity sha512-mmcei9JghVNDYydghQmeDX8KoAm0FAiYyIcUt/N4nhyAipB17pllZQDOJD2fotxABnt4Mdz+dKTO7eftLg4d0A==
 
+node-addon-api@^5.0.0:
+  version "5.1.0"
+  resolved "https://registry.yarnpkg.com/node-addon-api/-/node-addon-api-5.1.0.tgz#49da1ca055e109a23d537e9de43c09cca21eb762"
+  integrity sha512-eh0GgfEkpnoWDq+VY8OyvYhFEzBk6jIYbRKdIlyTiAXIVJ8PyBaKb0rp7oDtoddbdoHWhq8wwr+XZ81F1rpNdA==
+
 node-addon-api@^6.1.0:
   version "6.1.0"
   resolved "https://registry.yarnpkg.com/node-addon-api/-/node-addon-api-6.1.0.tgz#ac8470034e58e67d0c6f1204a18ae6995d9c0d76"
@@ -8394,7 +8399,7 @@ semver@^6.0.0, semver@^6.3.1:
   resolved "https://registry.yarnpkg.com/semver/-/semver-6.3.1.tgz#556d2ef8689146e46dcea4bfdd095f3434dffcb4"
   integrity sha512-BR7VvDCVHO+q2xBEWskxS6DJE1qRnb7DxzUrogb71CWoSficBxYsiAGd+Kl0mmq/MprG9yArRkyrQxTO6XjMzA==
 
-semver@^7.3.5, semver@^7.3.7, semver@^7.5.3, semver@^7.5.4, semver@^7.6.0:
+semver@^7.3.5, semver@^7.3.7, semver@^7.3.8, semver@^7.5.3, semver@^7.5.4, semver@^7.6.0:
   version "7.6.0"
   resolved "https://registry.yarnpkg.com/semver/-/semver-7.6.0.tgz#1a46a4db4bffcccd97b743b5005c8325f23d4e2d"
   integrity sha512-EnwXhrlwXMk9gKu5/flx5sv/an57AkRplG3hTK68W7FRDN+k+OWBj65M7719OkA82XLBxrcX0KSHj+X5COhOVg==
@@ -8433,7 +8438,7 @@ set-function-name@^2.0.1:
     functions-have-names "^1.2.3"
     has-property-descriptors "^1.0.2"
 
-sharp@0.33.3, sharp@^0.33.3:
+sharp@0.33.3:
   version "0.33.3"
   resolved "https://registry.yarnpkg.com/sharp/-/sharp-0.33.3.tgz#3342fe0aa5ed45a363e6578fa575c7af366216c2"
   integrity sha512-vHUeXJU1UvlO/BNwTpT0x/r53WkLUVxrmb5JTgW92fdFCFk0ispLMAeu/jPO2vjkXM1fYUi3K7/qcLF47pwM1A==
@@ -8461,6 +8466,20 @@ sharp@0.33.3, sharp@^0.33.3:
     "@img/sharp-wasm32" "0.33.3"
     "@img/sharp-win32-ia32" "0.33.3"
     "@img/sharp-win32-x64" "0.33.3"
+
+sharp@^0.31.3:
+  version "0.31.3"
+  resolved "https://registry.yarnpkg.com/sharp/-/sharp-0.31.3.tgz#60227edc5c2be90e7378a210466c99aefcf32688"
+  integrity sha512-XcR4+FCLBFKw1bdB+GEhnUNXNXvnt0tDo4WsBsraKymuo/IAuPuCBVAL2wIkUw2r/dwFW5Q5+g66Kwl2dgDFVg==
+  dependencies:
+    color "^4.2.3"
+    detect-libc "^2.0.1"
+    node-addon-api "^5.0.0"
+    prebuild-install "^7.1.1"
+    semver "^7.3.8"
+    simple-get "^4.0.1"
+    tar-fs "^2.1.1"
+    tunnel-agent "^0.6.0"
 
 sharp@^0.32.6:
   version "0.32.6"
@@ -9012,7 +9031,7 @@ tailwindcss@^3.2.4:
     resolve "^1.22.2"
     sucrase "^3.32.0"
 
-tar-fs@^2.0.0:
+tar-fs@^2.0.0, tar-fs@^2.1.1:
   version "2.1.1"
   resolved "https://registry.yarnpkg.com/tar-fs/-/tar-fs-2.1.1.tgz#489a15ab85f1f0befabb370b7de4f9eb5cbe8784"
   integrity sha512-V0r2Y9scmbDRLCNex/+hYzvp/zyYjvFbHPNgVTKfQvVrb6guiE/fxP+XblDNR011utopbkex2nM4dHNV6GDsng==
