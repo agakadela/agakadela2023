@@ -100,7 +100,7 @@ const Project = ({ project, variant, index }: ProjectProps) => (
         </div>
         <div className="List flex w-full flex-col items-start justify-start gap-4">
           {project.summary
-            ? project.summary.map((summary) => (
+            ? project.summary.map((summary: any) => (
                 <div
                   key={summary.text}
                   className="ListItem inline-flex w-full items-start justify-start space-x-2.5"
